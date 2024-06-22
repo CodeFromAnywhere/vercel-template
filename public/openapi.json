@@ -1,0 +1,20 @@
+{
+  "x-actionschema": "0.0.1",
+  "$schema": "https://raw.githubusercontent.com/CodeFromAnywhere/ActionSchema/main/schemas/openapi.schema.json",
+  "openapi": "3.0.1",
+
+  "info": {
+    "title": "Deployment API",
+    "description": "Serverless API for managing Github and Vercel integrations",
+    "version": "1.0.0"
+  },
+
+  "servers": [{ "url": "https://subdomain.actionschema.com" }],
+
+  "paths": {},
+
+  "components": {
+    "schemas": {},
+    "securitySchemes": {}
+  }
+}

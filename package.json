@@ -1,0 +1,11 @@
+{
+  "name": "vercel-template",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "typescript": "^5.4.5"
+  }
+}
