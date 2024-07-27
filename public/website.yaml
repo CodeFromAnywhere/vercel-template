@@ -1,0 +1,16 @@
+login.html:
+  # This is a much better way of logging in because all logic is now in 1 page.
+
+  Please make a nice login page in HTML, CSS, JS and Tailwind CDN.
+
+  Start with a loading indicator indicator.
+
+  - If a '?code' parameter is received, submit it to https://auth.actionschema.com/client/access_token . If it fails, render the error. If it succeeds, set the access_token to localStorage:authToken, and redirect to {redirect_page}
+
+  - If not, and if you have no authToken, redirect to https://auth.actionschema.com/client/authorize?client_id={client_id}
+
+  - If you already have an authToken, redirect to {redirect_page}
+
+  Variables...
+  - {redirect_page} = app.html
+  - {client_id} = vercel-template
